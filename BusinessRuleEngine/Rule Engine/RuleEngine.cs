@@ -23,8 +23,8 @@ namespace BusinessRulesEngine
         public Dictionary<int, Rule> Rules { get; set; } = new Dictionary<int, Rule>();
 
         /// <summary>
-        /// The rule can configured by user in xml or UI tool.
-        /// The rule can be saved in data base and the can be loaded in from database.
+        /// The rule can be configured by the user in the XML or UI tool.
+        /// The rule can be saved in the database and the can be loaded in from the database.
         /// </summary>
         public void AddRule()
         {
